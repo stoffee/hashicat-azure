@@ -1,5 +1,5 @@
 module "network" {
-  source              = "app.terraform.io/instruqt-circleci/network/azurerm"
+  source              = "Azure/network/azurerm"
   version             = "2.0.0"
   resource_group_name = azurerm_resource_group.myresourcegroup.name
   location            = "centralus"
